@@ -1,0 +1,8 @@
+local ChatService = game:GetService("Chat")
+
+local message = "Player died"
+
+local channel = ChatService:GetChannel("All")
+
+channel:SendSystemMessage(message)
+
